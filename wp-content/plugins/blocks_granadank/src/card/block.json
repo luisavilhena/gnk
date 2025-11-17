@@ -1,0 +1,24 @@
+{
+  "apiVersion": 2,
+  "name": "blocks/single-card",
+  "title": "Bloco de Card Único",
+  "category": "widgets",
+  "icon": "id-alt",
+  "editorScript": "file:./index.js",
+  "supports": { "html": false },
+  "attributes": {
+    "blocoTitulo": { "type": "string", "default": "" },
+    "card": {
+      "type": "object",
+      "default": {
+        "imageURL": "",
+        "svg": "",
+        "titulo": "",
+        "subtitulo": "",
+        "descricao": "",
+        "link": ""
+      }
+    },
+    "htmlContent": { "type": "string", "default": "" }
+  }
+}

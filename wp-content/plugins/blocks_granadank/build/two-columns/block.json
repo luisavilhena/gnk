@@ -1,0 +1,30 @@
+{
+  "apiVersion": 2,
+  "name": "blocks/two-columns",
+  "title": "Bloco: Duas Colunas",
+  "category": "widgets",
+  "icon": "columns",
+  "description": "Bloco com duas colunas, cada uma contendo imagem, título e descrição.",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "columns": {
+      "type": "array",
+      "default": [
+        {
+          "imageURL": "",
+          "title": "",
+          "description": ""
+        },
+        {
+          "imageURL": "",
+          "title": "",
+          "description": ""
+        }
+      ]
+    }
+  }
+}

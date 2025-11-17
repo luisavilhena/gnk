@@ -1,0 +1,17 @@
+{
+    "apiVersion": 2,
+    "name": "blocks/meu-bloco",
+    "title": "Lista de Itens",
+    "category": "widgets",
+    "icon": "smiley",
+    "editorScript": "file:./index.js",
+    "supports": {
+        "html": false
+    },
+    "attributes": {
+        "bgImageURL": {
+            "type": "string",
+            "default": ""
+        }
+    }
+}

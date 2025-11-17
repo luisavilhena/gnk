@@ -1,0 +1,43 @@
+{
+  "apiVersion": 2,
+  "name": "blocks/my-component",
+  "title": "Componente: Imagem + Texto Rich",
+  "category": "widgets",
+  "icon": "format-image",
+  "description": "Componente com imagem, título, subtítulo, descrição e texto longo (bold/italic/link).",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2",
+      "default": ""
+    },
+    "subtitle": {
+      "type": "string",
+      "source": "html",
+      "selector": "h3",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": "p.descricao",
+      "default": ""
+    },
+    "longText": {
+      "type": "array",
+      "source": "children",
+      "selector": ".long-text",
+      "default": []
+    }
+  }
+}

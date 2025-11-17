@@ -1,0 +1,30 @@
+{
+  "apiVersion": 2,
+  "name": "blocks/image-textleft",
+  "title": "Imagem com Texto à esquerda",
+  "category": "widgets",
+  "icon": "format-image",
+  "editorScript": "file:./index.js",
+  "style": "file:./style.css",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "imageURL": {
+      "type": "string",
+      "default": ""
+    },
+    "title": {
+      "type": "string",
+      "source": "html",
+      "selector": "h2",
+      "default": ""
+    },
+    "description": {
+      "type": "string",
+      "source": "html",
+      "selector": "p",
+      "default": ""
+    }
+  }
+}

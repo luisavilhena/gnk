@@ -1,0 +1,36 @@
+{
+  "apiVersion": 2,
+  "name": "blocks/cards",
+  "title": "Bloco de Cards",
+  "category": "widgets",
+  "icon": "id-alt",
+  "editorScript": "file:./index.js",
+  "supports": {
+    "html": false
+  },
+  "attributes": {
+    "blocoTitulo": {
+      "type": "string",
+      "default": ""
+    },
+    "cards": {
+      "type": "array",
+      "default": [
+        {
+          "imageURL": "",
+          "titulo": "",
+          "subtitulo": "",
+          "descricao": "",
+          "link": ""
+        },
+        {
+          "imageURL": "",
+          "titulo": "",
+          "subtitulo": "",
+          "descricao": "",
+          "link": ""
+        }
+      ]
+    }
+  }
+}
